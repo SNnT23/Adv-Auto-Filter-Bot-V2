@@ -12,7 +12,7 @@ from .translation import Translation
 
 # Change Accordingly While Deploying To A VPS
 
-API_ID = Int(os.environ.get("16950780"))
+API_ID = Int(environ.get("16950780"))
 
 API_HASH = os.environ.get("b2cc1795a8537e3e848fa8d0cb1fd503")
 
